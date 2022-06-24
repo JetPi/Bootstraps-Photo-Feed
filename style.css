@@ -11,3 +11,13 @@ div{
     font-size: 30px;
     color: gray;
 }
+
+.new-post-box{
+    display: flex;
+    justify-content: right;
+}
+
+.new-post-button{
+    background-color: rgb(59, 230, 59);
+    border: 0px;
+}
