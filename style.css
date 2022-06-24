@@ -1,9 +1,17 @@
 body{
     margin: 0px;
+    height: 1000px;
 }
 
 div{
     border: 1px solid black;
+}
+
+.header-line{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
 }
 
 .page-logo{
@@ -23,6 +31,14 @@ div{
 }
 
 .button-standard:hover{
+    background-color: rgb(29, 175, 29);
+}
+
+.button-standard:active{
+    background-color: rgb(29, 175, 29);
+}
+
+.button-standard:focus{
     background-color: rgb(29, 175, 29);
 }
 
