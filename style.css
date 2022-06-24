@@ -33,5 +33,10 @@ div{
 
 .Npost-buttons{
     padding-left: 10px;
+}
 
+.config-box{
+    display: flex;
+    justify-content: left;
+    align-items: center;
 }
