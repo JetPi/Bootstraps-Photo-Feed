@@ -17,7 +17,21 @@ div{
     justify-content: right;
 }
 
-.new-post-button{
+.button-standard{
     background-color: rgb(59, 230, 59);
     border: 0px;
+}
+
+.button-standard:hover{
+    background-color: rgb(29, 175, 29);
+}
+
+.post-text{
+    width: 100%;
+    height: 4rem;
+}
+
+.Npost-buttons{
+    padding-left: 10px;
+
 }
