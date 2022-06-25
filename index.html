@@ -27,16 +27,16 @@
 
         <!-- Header Line -->
 
-        <div class="row header-line">
+        <div class="row header-line position-fixed">
             <!-- Blank space -->
             <div class="col-1"></div>
             <!-- Logo -->
-            <div class="col-7 page-logo">
+            <div class="col-md-7 col-sm-4 page-logo">
                 <i class="fa-brands fa-instagram"></i> Instagram
             </div>
 
             <!-- New Post Button -->
-            <div class="col-2 new-post-box">
+            <div class="col-md-2 col-sm-3 new-post-box">
                 <!-- Trigger Button -->
                 <button type="button" class="btn btn-primary button-standard" data-bs-toggle="modal" data-bs-target="#new-post">
                     Create a new post
@@ -44,7 +44,7 @@
             </div>
 
             <!-- Config Button -->
-            <div class="col-1 config-box">
+            <div class="col-md-1 col-sm-3 config-box">
                 <div class="dropdown">
                     <button class="btn btn-secondary dropdown-toggle" style="font-size: 20px;" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                         <i class="fa-solid fa-gear"></i>
@@ -58,38 +58,71 @@
                   </div>
             </div>
             <!-- Blank Space -->
-            <div class="col-1"></div>
+            <div class="col-1 "></div>
         </div>
 
         <!-- End of header line -->
 
-        <div class="row" style="margin-top: 3rem;">
+        <!-- Button Row -->
+        <div class="row" style="margin-top: 4rem;">
             <div class="col-5"></div>
             <div class="col-1">
-                <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="gg-square" style="width: 14px; height: 14px;"></i></a>
+                <a class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#display1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="gg-square" style="width: 14px; height: 14px;"></i></a>
             </div>
             <div class="col-1">
-                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2"><i class="gg-display-grid" ></i></button>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#display2" aria-expanded="false" aria-controls="multiCollapseExample2"><i class="gg-display-grid" ></i></button>
             </div>
             <div class="col-5"></div>
         </div>
 
-        <div class="row">
-            <div class="col">
-              <div class="collapse multi-collapse" id="multiCollapseExample1">
-                <div class="card card-body">
-                  Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="collapse multi-collapse" id="multiCollapseExample2">
-                <div class="card card-body">
-                  Some placeholder content for the second collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                </div>
+        <!-- End of Button Row -->
+
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <div id="display1" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <!-- Display Grid -->
+                <div class="row"> 
+                  <div class=" col-xs-6 col-md-4">
+                    First half of the presentation
+                  </div>
+                  <div class="col-xs-6 col-md-4">
+                    First half of the presentation
+                  </div>
+                  <div class="col-xs-6 col-md-4">
+                    First half of the presentation
+                  </div>
+                </div>      
               </div>
             </div>
           </div>
+
+          <div class="accordion-item">
+            <div id="display2" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <!-- Display Post -->
+                <div class="row">
+                  <div class="col-2"></div>
+                  <div class="col-8">
+                    Second half of the presentation
+                  </div>
+                  <div class="col-2"></div>
+                </div>      
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+
+
+
+            
+            
+             
+            
+          
 
     </div>
 

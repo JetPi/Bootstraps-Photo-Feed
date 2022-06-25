@@ -8,7 +8,6 @@ div{
 }
 
 .header-line{
-    position: fixed;
     top: 0;
     width: 100%;
     background-color: white;
@@ -18,6 +17,8 @@ div{
     font-family: 'Smooch', cursive;
     font-size: 30px;
     color: gray;
+    display: flex;
+    align-items: center;
 }
 
 .new-post-box{
