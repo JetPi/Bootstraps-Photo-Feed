@@ -3,10 +3,6 @@ body{
     background-color: lightgray;
 }
 
-div{
-    border: 1px solid black;
-}
-
 .header-line{
     z-index: 1;
     position: static;
@@ -64,8 +60,9 @@ div{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 5px;
+    padding: 0px;
     height: 25vw;
+    border: 2px solid white;
 }
 
 .grid-image{
@@ -113,4 +110,8 @@ div{
 .post-comment{
     display: flex;
     align-items: center;
+}
+
+.post-body{
+    padding-bottom: 30px;
 }

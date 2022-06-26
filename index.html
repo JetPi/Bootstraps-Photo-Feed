@@ -25,7 +25,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
     
-    <div class="container-fluid">
+    <div class="container-fluid" style="padding: 0px;">
         <!-- Header Line -->
 
         <div class="row header-line position-fixed">
@@ -78,53 +78,52 @@
 
         <!-- End of Button Row -->
 
-        <!-- Start of Button Function -->
-        <div class="accordion"  id="accordionExample">
-          <!-- Button function 1 -->
-          <div class="accordion-item" style="background-color: lightgray;">
-            <div id="display1" style="background-color: white;" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <!-- Start of Button Function 1 -->
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <div id="display1" style="background-color: white;" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
               <div class="accordion-body">
                 <!-- Display Grid -->
                 <div class="row">
 
                   <div class=" col-sm-6 col-md-4 grid-box">
-                    <img src="https://picsum.photos/seed/picsum/200/300" class="grid-image">
+                    <img src="https://picsum.photos/seed/picsum/400/300" class="grid-image">
                   </div>
                   <div class="col-sm-6 col-md-4 grid-box">
-                    <img src="https://picsum.photos/200/300" class="grid-image">
+                    <img src="https://picsum.photos/400/300" class="grid-image">
                   </div>
                   <div class="col-sm-6 col-md-4 grid-box">
-                    <img src="https://picsum.photos/seed/200/300" class="grid-image">
+                    <img src="https://picsum.photos/seed/400/300" class="grid-image">
                   </div>
 
                   <div class=" col-sm-6 col-md-4 grid-box">
-                    <img src="https://picsum.photos/seed/picsum/200/300" class="grid-image">
+                    <img src="https://picsum.photos/seed/picsum/400/300" class="grid-image">
                   </div>
                   <div class="col-sm-6 col-md-4 grid-box">
-                    <img src="https://picsum.photos/200/300" class="grid-image">
+                    <img src="https://picsum.photos/400/300" class="grid-image">
                   </div>
                   <div class="col-sm-6 col-md-4 grid-box">
-                    <img src="https://picsum.photos/seed/200/300" class="grid-image">
+                    <img src="https://picsum.photos/seed/400/300" class="grid-image">
                   </div>
 
                   <div class=" col-sm-6 col-md-4 grid-box">
-                    <img src="https://picsum.photos/seed/picsum/200/300" class="grid-image">
+                    <img src="https://picsum.photos/seed/picsum/400/300" class="grid-image">
                   </div>
                   <div class="col-sm-6 col-md-4 grid-box">
-                    <img src="https://picsum.photos/200/300" class="grid-image">
+                    <img src="https://picsum.photos/400/300" class="grid-image">
                   </div>
                   <div class="col-sm-6 col-md-4 grid-box">
-                    <img src="https://picsum.photos/seed/200/300" class="grid-image">
+                    <img src="https://picsum.photos/seed/400/300" class="grid-image">
                   </div>
 
                   <div class=" col-sm-6 col-md-4 grid-box">
-                    <img src="https://picsum.photos/seed/picsum/200/300" class="grid-image">
+                    <img src="https://picsum.photos/seed/picsum/400/300" class="grid-image">
                   </div>
                   <div class="col-sm-6 col-md-4 grid-box">
-                    <img src="https://picsum.photos/200/300" class="grid-image">
+                    <img src="https://picsum.photos/400/300" class="grid-image">
                   </div>
                   <div class="col-sm-6 col-md-4 grid-box">
-                    <img src="https://picsum.photos/seed/200/300" class="grid-image">
+                    <img src="https://picsum.photos/seed/400/300" class="grid-image">
                   </div>
 
                 </div>      
@@ -134,11 +133,11 @@
 
           <!-- Button function 2 -->
           <div class="accordion-item" >
-            <div id="display2" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div id="display2" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
               <div class="accordion-body" style="background-color: lightgray;">
                 <!-- Button 2 Workspace -->
 
-                <div class="container-fluid">
+                <div class="container-fluid post-body" >
 
                   <div class="row" >
                     <div class="col-2"></div>
@@ -192,43 +191,115 @@
 
                 </div>
 
-                <div class="container-fluid" style="background-color: white; margin-top: 20px;">
+                <div class="container-fluid post-body">
+
                   <div class="row" >
-                    <div class="col-7">name</div>
-                    <div class="col-5">date</div>
+                    <div class="col-2"></div>
+                    <div class="col-5 post-name post-standard">
+                      My First Photo
+                    </div>
+                    <div class="col-3 post-date post-standard">
+                        14/17
+                    </div>
+                    <div class="col-2"></div>
                   </div>
                   <div class="row">
-                    <div class="col-12">photo</div>
+                    <div class="col-2"></div>
+                    <div class="col-8 post-standard" style="padding: 0px;">
+                      <img class="post-photo" src="https://picsum.photos/720/400">
+                    </div>
+                    <div class="col-2"></div>
                   </div>
                   <div class="row">
-                    <div class="col-12">likes</div>
+                    <div class="col-2"></div>
+                    <div class="col-8 post-standard post-likes">
+                       28 likes
+                    </div>
+                    <div class="col-2"></div>
                   </div>
                   <div class="row">
-                    <div class="col-12">description</div>
+                    <div class="col-2"></div>
+                    <div class="col-8 post-standard">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                        Corrupti praesentium vel debitis, dolore ipsa quis soluta 
+                        doloremque reiciendis, possimus tenetur dolor cum fugiat? 
+                        Sunt, voluptatum.
+                      </p>
+                    </div>
+                    <div class="col-2"></div>
                   </div>
                   <div class="row">
-                    <div class="col-12">comment</div>
+                    <div class="col-2"></div>
+                    <div class="col-7 post-standard post-comment">
+                      <form>
+                        <i class="fa-regular fa-heart"></i> &nbsp; &nbsp;
+                        <input type="text" name="Comment" placeholder="Comment..." style="border: 0px;">
+                      </form>
+                    </div>
+                    <div class="col-1 post-standard" style="font-size: 20px; display: flex; justify-content: right; align-items: center;">
+                      <span>&#8942;</span>
+                    </div>
+                    <div class="col-2"></div>
                   </div>
+
                 </div>
 
-                <div class="container-fluid" style="background-color: white; margin-top: 20px;">
+                <div class="container-fluid post-body" >
+
                   <div class="row" >
-                    <div class="col-7">name</div>
-                    <div class="col-5">date</div>
+                    <div class="col-2"></div>
+                    <div class="col-5 post-name post-standard">
+                      My First Photo
+                    </div>
+                    <div class="col-3 post-date post-standard">
+                        14/17
+                    </div>
+                    <div class="col-2"></div>
                   </div>
                   <div class="row">
-                    <div class="col-12">photo</div>
+                    <div class="col-2"></div>
+                    <div class="col-8 post-standard" style="padding: 0px;">
+                      <img class="post-photo" src="https://picsum.photos/720/400">
+                    </div>
+                    <div class="col-2"></div>
                   </div>
                   <div class="row">
-                    <div class="col-12">likes</div>
+                    <div class="col-2"></div>
+                    <div class="col-8 post-standard post-likes">
+                       28 likes
+                    </div>
+                    <div class="col-2"></div>
                   </div>
                   <div class="row">
-                    <div class="col-12">description</div>
+                    <div class="col-2"></div>
+                    <div class="col-8 post-standard">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                        Corrupti praesentium vel debitis, dolore ipsa quis soluta 
+                        doloremque reiciendis, possimus tenetur dolor cum fugiat? 
+                        Sunt, voluptatum.
+                      </p>
+                    </div>
+                    <div class="col-2"></div>
                   </div>
                   <div class="row">
-                    <div class="col-12">comment</div>
+                    <div class="col-2"></div>
+                    <div class="col-7 post-standard post-comment">
+                      <form>
+                        <i class="fa-regular fa-heart"></i> &nbsp; &nbsp;
+                        <input type="text" name="Comment" placeholder="Comment..." style="border: 0px;">
+                      </form>
+                    </div>
+                    <div class="col-1 post-standard" style="font-size: 20px; display: flex; justify-content: right; align-items: center;">
+                      <span>&#8942;</span>
+                    </div>
+                    <div class="col-2"></div>
                   </div>
+
                 </div>
+
+                
                 
 
                 <!-- Button 2 Workspace -->
