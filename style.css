@@ -111,5 +111,6 @@ div{
 }
 
 .post-comment{
-    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
 }
