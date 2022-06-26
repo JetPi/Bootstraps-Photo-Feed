@@ -80,3 +80,17 @@ div{
     display: flex;
     justify-content: right;
 }
+
+.post-name{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.post-date{
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
