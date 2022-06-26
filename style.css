@@ -5,9 +5,10 @@ body{
 
 .header-line{
     z-index: 1;
-    position: static;
+    position: fixed;
     top: 0;
-    width: 100%;
+    right: 0;
+    width: 105%;
     background-color: rgb(230, 227, 227);
 }
 
