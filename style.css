@@ -97,3 +97,19 @@ div{
     font-family: 'Roboto', sans-serif;
     background-color: white;
 }
+
+.post-photo{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.post-likes{
+    font-size: 20px;
+}
+
+.post-comment{
+    padding-bottom: 5px;
+}
